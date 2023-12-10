@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+    <title>Caesar Cipher</title>
+  </head>
+  <body>
+    <div
+      class="container d-flex flex-column justify-content-center w-50 h-50 align-content-center"
+    >
+      <main class="mt-5">
+        <div
+          class="card text-center p-3"
+          style="height: 30rem; background-color: bisque"
+        >
+          <img
+            src="calculator-svgrepo-com.svg"
+            class="card-img-top img-fluid mx-auto mb-3"
+            alt="calculator"
+            width="150"
+            height="150"
+          />
+          <h1 class="text-black card-title">CAESAR'S CIPHER CALCULATOR</h1>
+          <p style="font-size: 10px" class="card-text">
+            Caesar's Cipher was named after Julius Caesar, who used this cipher
+            to encrypt his private messages. The cipher takes each letter in a
+            word and rotates it by a number. For example, if the cipher was a
+            ROT1 (rotate by 1 letter), then every a in the message would show up
+            as a b. This is a ROT13 cipher. It will encrypt your messages by
+            rotating the letters by 13 characters.
+          </p>
+          <div class="text-center">
+            <form name="str">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="text"
+                  class="form-control"
+                  placeholder="Enter text to encrypt here..."
+                  style="background-color: beige"
+                />
+              </div>
+              <button id="encrypt" class="btn btn-primary">Encrypt</button>
+              <h4 id="output" class="mt-3"></h4>
+            </form>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="mt-5 text-center" style="font-size: 20px">
+          <div>
+            <h5>
+              Made with ❤️ by
+              <a href="https://github.com/anandazahir">Ananda Muhammad Zahir</a>
+            </h5>
+          </div>
+          <h5>Connect with me:</h5>
+          <div>
+            <a href="https://github.com/anandazahir" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/ananda.zahir" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

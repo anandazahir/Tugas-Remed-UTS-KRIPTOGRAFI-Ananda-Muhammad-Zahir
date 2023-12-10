@@ -1,0 +1,10 @@
+* {
+  font-family: cursive;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 200vh;
+  width: 100vw;
+  overflow: hidden;
+}
