@@ -4,4 +4,4 @@ Caesar's Cipher was named after Julius Caesar, who used this cipher  to encrypt 
 Encryption
 ![Encryption](https://github.com/anandazahir/Tugas-Remed-UTS-KRIPTOGRAFI-Ananda-Muhammad-Zahir/blob/main/encrpyt.png)
 Decryption
-![Decryption](https://github.com/anandazahir/Tugas-Remed-UTS-KRIPTOGRAFI-Ananda-Muhammad-Zahir/blob/main/deskripsi.png)
+![Decryption](https://github.com/anandazahir/Tugas-Remed-UTS-KRIPTOGRAFI-Ananda-Muhammad-Zahir/blob/main/Dectpy.png)
